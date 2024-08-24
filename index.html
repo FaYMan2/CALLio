@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2-User Video Chat</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 id = "id"></h1>
+        <div class="video-container">
+            <video id="localVideo" autoplay muted></video>
+            <video id="remoteVideo" autoplay></video>
+        </div>
+        <div class="controls">
+            <input type="text" id="callId" placeholder="Enter Call ID">
+            <button id="answerCall">Answer Call</button>
+            <button id="startCall">Start Call</button>
+            <button id="endCall">End Call</button>
+        </div>
+    </div>
+    <script src="main.js" type="module"></script>
+</body>
+</html>
